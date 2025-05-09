@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="game-container">
+      <div class="hero">
+        <h1>Static Arithmetic Game</h1>
+        <div class="hero-subtitle">Test your math skills!</div>
+        <div class="hero-decoration"></div>
+        <a href="https://github.com/ahmoin" class="hero-credit">Made by ahmoin</a>
+      </div>
+
+      <div class="question-container">
+        <p class="question">What is 7 + 8?</p>
+        <div class="options">
+          <input
+            type="radio"
+            id="option1"
+            name="answer"
+            class="option"
+            autocomplete="off"
+          />
+          <label for="option1">14</label>
+          <div class="incorrect-feedback feedback-option1">
+            Incorrect. Try again!
+          </div>
+
+          <input
+            type="radio"
+            id="option2"
+            name="answer"
+            class="option"
+            autocomplete="off"
+          />
+          <label for="option2">15</label>
+          <div class="correct-feedback feedback-option2">
+            Correct! 7 + 8 = 15
+          </div>
+
+          <input
+            type="radio"
+            id="option3"
+            name="answer"
+            class="option"
+            autocomplete="off"
+          />
+          <label for="option3">16</label>
+          <div class="incorrect-feedback feedback-option3">
+            Incorrect. Try again!
+          </div>
+
+          <input
+            type="radio"
+            id="option4"
+            name="answer"
+            class="option"
+            autocomplete="off"
+          />
+          <label for="option4">17</label>
+          <div class="incorrect-feedback feedback-option4">
+            Incorrect. Try again!
+          </div>
+        </div>
+      </div>
+
+      <div class="question-container">
+        <p class="question">What is 12 - 5?</p>
+        <div class="options">
+          <input
+            type="radio"
+            id="q2option1"
+            name="answer2"
+            class="option"
+            autocomplete="off"
+          />
+          <label for="q2option1">5</label>
+          <div class="incorrect-feedback feedback-q2option1">
+            Incorrect. Try again!
+          </div>
+
+          <input
+            type="radio"
+            id="q2option2"
+            name="answer2"
+            class="option"
+            autocomplete="off"
+          />
+          <label for="q2option2">6</label>
+          <div class="incorrect-feedback feedback-q2option2">
+            Incorrect. Try again!
+          </div>
+
+          <input
+            type="radio"
+            id="q2option3"
+            name="answer2"
+            class="option"
+            autocomplete="off"
+          />
+          <label for="q2option3">7</label>
+          <div class="correct-feedback feedback-q2option3">
+            Correct! 12 - 5 = 7
+          </div>
+
+          <input
+            type="radio"
+            id="q2option4"
+            name="answer2"
+            class="option"
+            autocomplete="off"
+          />
+          <label for="q2option4">8</label>
+          <div class="incorrect-feedback feedback-q2option4">
+            Incorrect. Try again!
+          </div>
+        </div>
+      </div>
+
+      <div class="question-container">
+        <p class="question">What is 6 x 4?</p>
+        <div class="options">
+          <input
+            type="radio"
+            id="q3option1"
+            name="answer3"
+            class="option"
+            autocomplete="off"
+          />
+          <label for="q3option1">20</label>
+          <div class="incorrect-feedback feedback-q3option1">
+            Incorrect. Try again!
+          </div>
+
+          <input
+            type="radio"
+            id="q3option2"
+            name="answer3"
+            class="option"
+            autocomplete="off"
+          />
+          <label for="q3option2">22</label>
+          <div class="incorrect-feedback feedback-q3option2">
+            Incorrect. Try again!
+          </div>
+
+          <input
+            type="radio"
+            id="q3option3"
+            name="answer3"
+            class="option"
+            autocomplete="off"
+          />
+          <label for="q3option3">24</label>
+          <div class="correct-feedback feedback-q3option3">
+            Correct! 6 x 4 = 24
+          </div>
+
+          <input
+            type="radio"
+            id="q3option4"
+            name="answer3"
+            class="option"
+            autocomplete="off"
+          />
+          <label for="q3option4">26</label>
+          <div class="incorrect-feedback feedback-q3option4">
+            Incorrect. Try again!
+          </div>
+        </div>
+      </div>
+
+      <div class="question-container">
+        <p class="question">What is 15 ÷ 3?</p>
+        <div class="options">
+          <input
+            type="radio"
+            id="q4option1"
+            name="answer4"
+            class="option"
+            autocomplete="off"
+          />
+          <label for="q4option1">3</label>
+          <div class="incorrect-feedback feedback-q4option1">
+            Incorrect. Try again!
+          </div>
+
+          <input
+            type="radio"
+            id="q4option2"
+            name="answer4"
+            class="option"
+            autocomplete="off"
+          />
+          <label for="q4option2">4</label>
+          <div class="incorrect-feedback feedback-q4option2">
+            Incorrect. Try again!
+          </div>
+
+          <input
+            type="radio"
+            id="q4option3"
+            name="answer4"
+            class="option"
+            autocomplete="off"
+          />
+          <label for="q4option3">5</label>
+          <div class="correct-feedback feedback-q4option3">
+            Correct! 15 ÷ 3 = 5
+          </div>
+
+          <input
+            type="radio"
+            id="q4option4"
+            name="answer4"
+            class="option"
+            autocomplete="off"
+          />
+          <label for="q4option4">6</label>
+          <div class="incorrect-feedback feedback-q4option4">
+            Incorrect. Try again!
+          </div>
+        </div>
+      </div>
+
+      <div class="question-container">
+        <p class="question">What is 9 + 7?</p>
+        <div class="options">
+          <input
+            type="radio"
+            id="q5option1"
+            name="answer5"
+            class="option"
+            autocomplete="off"
+          />
+          <label for="q5option1">14</label>
+          <div class="incorrect-feedback feedback-q5option1">
+            Incorrect. Try again!
+          </div>
+
+          <input
+            type="radio"
+            id="q5option2"
+            name="answer5"
+            class="option"
+            autocomplete="off"
+          />
+          <label for="q5option2">15</label>
+          <div class="incorrect-feedback feedback-q5option2">
+            Incorrect. Try again!
+          </div>
+
+          <input
+            type="radio"
+            id="q5option3"
+            name="answer5"
+            class="option"
+            autocomplete="off"
+          />
+          <label for="q5option3">16</label>
+          <div class="correct-feedback feedback-q5option3">
+            Correct! 9 + 7 = 16
+          </div>
+
+          <input
+            type="radio"
+            id="q5option4"
+            name="answer5"
+            class="option"
+            autocomplete="off"
+          />
+          <label for="q5option4">17</label>
+          <div class="incorrect-feedback feedback-q5option4">
+            Incorrect. Try again!
+          </div>
+        </div>
+      </div>
+
+      <div class="question-container">
+        <p class="question">What is 20 - 8?</p>
+        <div class="options">
+          <input
+            type="radio"
+            id="q6option1"
+            name="answer6"
+            class="option"
+            autocomplete="off"
+          />
+          <label for="q6option1">10</label>
+          <div class="incorrect-feedback feedback-q6option1">
+            Incorrect. Try again!
+          </div>
+
+          <input
+            type="radio"
+            id="q6option2"
+            name="answer6"
+            class="option"
+            autocomplete="off"
+          />
+          <label for="q6option2">11</label>
+          <div class="incorrect-feedback feedback-q6option2">
+            Incorrect. Try again!
+          </div>
+
+          <input
+            type="radio"
+            id="q6option3"
+            name="answer6"
+            class="option"
+            autocomplete="off"
+          />
+          <label for="q6option3">12</label>
+          <div class="correct-feedback feedback-q6option3">
+            Correct! 20 - 8 = 12
+          </div>
+
+          <input
+            type="radio"
+            id="q6option4"
+            name="answer6"
+            class="option"
+            autocomplete="off"
+          />
+          <label for="q6option4">13</label>
+          <div class="incorrect-feedback feedback-q6option4">
+            Incorrect. Try again!
+          </div>
+        </div>
+      </div>
+
+      <div class="question-container">
+        <p class="question">What is 5 x 6?</p>
+        <div class="options">
+          <input
+            type="radio"
+            id="q7option1"
+            name="answer7"
+            class="option"
+            autocomplete="off"
+          />
+          <label for="q7option1">25</label>
+          <div class="incorrect-feedback feedback-q7option1">
+            Incorrect. Try again!
+          </div>
+
+          <input
+            type="radio"
+            id="q7option2"
+            name="answer7"
+            class="option"
+            autocomplete="off"
+          />
+          <label for="q7option2">30</label>
+          <div class="correct-feedback feedback-q7option2">
+            Correct! 5 x 6 = 30
+          </div>
+
+          <input
+            type="radio"
+            id="q7option3"
+            name="answer7"
+            class="option"
+            autocomplete="off"
+          />
+          <label for="q7option3">35</label>
+          <div class="incorrect-feedback feedback-q7option3">
+            Incorrect. Try again!
+          </div>
+
+          <input
+            type="radio"
+            id="q7option4"
+            name="answer7"
+            class="option"
+            autocomplete="off"
+          />
+          <label for="q7option4">40</label>
+          <div class="incorrect-feedback feedback-q7option4">
+            Incorrect. Try again!
+          </div>
+        </div>
+      </div>
+
+      <div class="question-container">
+        <p class="question">What is 24 ÷ 4?</p>
+        <div class="options">
+          <input
+            type="radio"
+            id="q8option1"
+            name="answer8"
+            class="option"
+            autocomplete="off"
+          />
+          <label for="q8option1">4</label>
+          <div class="incorrect-feedback feedback-q8option1">
+            Incorrect. Try again!
+          </div>
+
+          <input
+            type="radio"
+            id="q8option2"
+            name="answer8"
+            class="option"
+            autocomplete="off"
+          />
+          <label for="q8option2">5</label>
+          <div class="incorrect-feedback feedback-q8option2">
+            Incorrect. Try again!
+          </div>
+
+          <input
+            type="radio"
+            id="q8option3"
+            name="answer8"
+            class="option"
+            autocomplete="off"
+          />
+          <label for="q8option3">6</label>
+          <div class="correct-feedback feedback-q8option3">
+            Correct! 24 ÷ 4 = 6
+          </div>
+
+          <input
+            type="radio"
+            id="q8option4"
+            name="answer8"
+            class="option"
+            autocomplete="off"
+          />
+          <label for="q8option4">7</label>
+          <div class="incorrect-feedback feedback-q8option4">
+            Incorrect. Try again!
+          </div>
+        </div>
+      </div>
+
+      <div class="question-container">
+        <p class="question">What is 11 + 9?</p>
+        <div class="options">
+          <input
+            type="radio"
+            id="q9option1"
+            name="answer9"
+            class="option"
+            autocomplete="off"
+          />
+          <label for="q9option1">18</label>
+          <div class="incorrect-feedback feedback-q9option1">
+            Incorrect. Try again!
+          </div>
+
+          <input
+            type="radio"
+            id="q9option2"
+            name="answer9"
+            class="option"
+            autocomplete="off"
+          />
+          <label for="q9option2">19</label>
+          <div class="incorrect-feedback feedback-q9option2">
+            Incorrect. Try again!
+          </div>
+
+          <input
+            type="radio"
+            id="q9option3"
+            name="answer9"
+            class="option"
+            autocomplete="off"
+          />
+          <label for="q9option3">20</label>
+          <div class="correct-feedback feedback-q9option3">
+            Correct! 11 + 9 = 20
+          </div>
+
+          <input
+            type="radio"
+            id="q9option4"
+            name="answer9"
+            class="option"
+            autocomplete="off"
+          />
+          <label for="q9option4">21</label>
+          <div class="incorrect-feedback feedback-q9option4">
+            Incorrect. Try again!
+          </div>
+        </div>
+      </div>
+
+      <div class="question-container">
+        <p class="question">What is 16 - 7?</p>
+        <div class="options">
+          <input
+            type="radio"
+            id="q10option1"
+            name="answer10"
+            class="option"
+            autocomplete="off"
+          />
+          <label for="q10option1">7</label>
+          <div class="incorrect-feedback feedback-q10option1">
+            Incorrect. Try again!
+          </div>
+
+          <input
+            type="radio"
+            id="q10option2"
+            name="answer10"
+            class="option"
+            autocomplete="off"
+          />
+          <label for="q10option2">8</label>
+          <div class="incorrect-feedback feedback-q10option2">
+            Incorrect. Try again!
+          </div>
+
+          <input
+            type="radio"
+            id="q10option3"
+            name="answer10"
+            class="option"
+            autocomplete="off"
+          />
+          <label for="q10option3">9</label>
+          <div class="correct-feedback feedback-q10option3">
+            Correct! 16 - 7 = 9
+          </div>
+
+          <input
+            type="radio"
+            id="q10option4"
+            name="answer10"
+            class="option"
+            autocomplete="off"
+          />
+          <label for="q10option4">10</label>
+          <div class="incorrect-feedback feedback-q10option4">
+            Incorrect. Try again!
+          </div>
+        </div>
+      </div>
+
+      <div class="question-container">
+        <p class="question">What is 8 x 7?</p>
+        <div class="options">
+          <input
+            type="radio"
+            id="q11option1"
+            name="answer11"
+            class="option"
+            autocomplete="off"
+          />
+          <label for="q11option1">48</label>
+          <div class="incorrect-feedback feedback-q11option1">
+            Incorrect. Try again!
+          </div>
+
+          <input
+            type="radio"
+            id="q11option2"
+            name="answer11"
+            class="option"
+            autocomplete="off"
+          />
+          <label for="q11option2">52</label>
+          <div class="incorrect-feedback feedback-q11option2">
+            Incorrect. Try again!
+          </div>
+
+          <input
+            type="radio"
+            id="q11option3"
+            name="answer11"
+            class="option"
+            autocomplete="off"
+          />
+          <label for="q11option3">56</label>
+          <div class="correct-feedback feedback-q11option3">
+            Correct! 8 x 7 = 56
+          </div>
+
+          <input
+            type="radio"
+            id="q11option4"
+            name="answer11"
+            class="option"
+            autocomplete="off"
+          />
+          <label for="q11option4">60</label>
+          <div class="incorrect-feedback feedback-q11option4">
+            Incorrect. Try again!
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
